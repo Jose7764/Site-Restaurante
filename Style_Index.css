@@ -1,0 +1,259 @@
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a {
+        color: aliceblue;
+    }
+    
+    #header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        padding-right: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #container_header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        gap: 20px;
+    }
+    
+    .iconHeader {
+        height: 50px;
+        width: 50px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    #LOGO {
+        height: 50px;
+        width: 50px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-frase {
+        background-color: black;
+        width: auto;
+        height: 100px;
+        box-shadow: 7px 11px 118px 5px rgba(0, 0, 0, 0.938);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .frase {
+        color: azure;
+        font-size: 40px;
+        font-family: 'Cormorant Garamond', serif;
+        justify-self: center;
+    }
+    
+    .Titulo {
+        color: rgb(0, 0, 0);
+        font-size: 53px;
+        justify-self: center;
+        padding: 40px;
+    }
+    
+    .Titulo b {
+        color: rgb(0, 0, 0);
+        font-size: 53px;
+        justify-self: center;
+        margin-right: 490px;
+    }
+    
+    #conteiner-imgPrinsipal {
+        background-image: url('/imagems/fundo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #imgPrinsipal {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    #butonReserva {
+        width: 210px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 17px;
+        background-image: url(/imagems/dourado.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgba(0, 0, 0, 0.938);
+        font-size: 23px;
+    }
+    
+    #butonReserva :hover {
+        color: rgba(255, 255, 255, 0.938);
+    }
+    
+    #conteiner-destaque-sidebar {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container-pratos-destaque {
+        margin-left: 15px;
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        width: 70%;
+        height: auto;
+    }
+    
+    .imgPratos {
+        width: 100%;
+        height: 230px;
+        display: block;
+    }
+    
+    .container-prato {
+        background-color: rgb(255, 255, 255);
+        height: 40%;
+        width: 265px;
+        padding: 20px;
+        box-shadow: 3px 3px 17px 1px rgba(0, 0, 0, 0.479);
+        gap: 10px;
+        border-radius: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+    
+    .container-prato:hover {
+        background-color: rgb(250, 242, 217);
+        box-shadow: 6px 6px 20px 9px rgba(0, 0, 0, 0.479);
+        transform: scale(1.02);
+        transition: 0.2s;
+    }
+    
+    .conteiner-prato a button {
+        display: flex;
+        align-self: flex-end;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .verMais {
+        display: flex;
+        justify-self: flex-end;
+    }
+    
+    .coluna-direita {
+        width: 30%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        border-radius: 7px;
+        flex-direction: column;
+        color: rgb(0, 0, 0);
+        margin-top: 60px;
+        margin-right: 30px;
+        padding: 20px;
+        gap: 120px;
+    }
+    
+    #horario-funcionamento-container {
+        background-color: #ffffff;
+        box-shadow: 2px 2px 20px 9px rgba(0, 0, 0, 0.479);
+        border-radius: 17px;
+        width: 70%;
+        height: 180px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 15px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    #horario-funcionamento-container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #video {
+        padding: 10px 20px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 20px 9px rgba(0, 0, 0, 0.479);
+        border-radius: 17px;
+        width: 70%;
+        height: 250px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    #video iframe {
+        width: 80%;
+        height: 75%;
+        max-width: 700px;
+        border-radius: 10px;
+    }
+    
+    #reserva {
+        background-color: #ffffff;
+        box-shadow: 2px 2px 20px 9px rgba(0, 0, 0, 0.479);
+        border-radius: 17px;
+        width: 70%;
+        height: 180px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 15px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .reserva form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .reserva input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .reserva textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
